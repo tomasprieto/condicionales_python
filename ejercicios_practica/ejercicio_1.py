@@ -28,3 +28,27 @@ numero_2 = int(input('Ingrese el segundo número:\n'))
 # Verifique si el numero_1 es menor a 10 o el numero_2
 # es mayor a -2
 # Imprima en pantalla si se cumple o no la condición
+
+if numero_1 > numero_2:
+    print(numero_1, "es mayor que", numero_2)
+else:
+        print(numero_2, " es mayor que", numero_1)
+
+if numero_1 > 0:
+    print(numero_1, "es positivo")
+elif numero_1 < 0:
+    print(numero_1, "es negativo")
+else:
+    print (numero_1, "es igual a cero")
+
+if numero_1 > 0 and numero_1 < 100:
+    print("se cumple la condición")
+else:
+    print("no se cumple la condición")
+
+if numero_1 < 10 or numero_2 > -2:
+    print("se cumple la condición")
+else:
+    print("no se cumple la condición")
+
+

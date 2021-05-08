@@ -15,10 +15,20 @@ texto_2 = '7'
 # Verifique cual cual de los dos textos es mayor alfabéticamente
 # Imprima en pantalla según corresponda
 
+if texto_1 > texto_2:
+    print(texto_1, "es mayor que", texto_2)
+elif texto_2 > texto_1:
+    print(texto_2, "es mayor que", texto_1)
+
 # Transforma esas variables tipo texto y almacénalas
 # en nuevas variables númericas (int)
 # Repita el proceso, ¿Cuál de las nuevas variables es mayor?
 # Imprima en pantalla según corresponda
+
+if int(texto_1) > int(texto_2):
+    print(int(texto_1), "es mayor que", int(texto_2))
+elif texto_2 > texto_1:
+    print(int(texto_2), "es mayor que", int(texto_1))
 
 # Para pensar!
 # ¿Por qué cree que texto_2 es mayor a texto_1?
